@@ -1,11 +1,12 @@
 import { readFileSync, writeFileSync } from 'fs'
-import { join, resolve } from 'path'
+import { resolve } from 'path'
+import { fileURLToPath } from 'url'
 
 const targetPath = process.cwd()
-const __dirname = resolve()
-const fileContent = readFileSync(join(__dirname, './template/.editorconfig'))
+const __dirname = fileURLToPath(import.meta.url)
+const fileContent = readFileSync(resolve(__dirname, '../../template/.editorconfig'))
 try {
-  writeFileSync(join(targetPath, './.editorconfig'), fileContent)
+  writeFileSync(resolve(targetPath, './.editorconfig'), fileContent)
   // eslint-disable-next-line no-console
   console.info('.editorconfig generated successfully 🎉')
 }
