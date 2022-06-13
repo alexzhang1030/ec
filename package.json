@@ -2,7 +2,7 @@
   "name": "@alexzzz/create-ec",
   "type": "module",
   "version": "0.2.5",
-  "packageManager": "pnpm@7.1.2",
+  "packageManager": "pnpm@7.2.1",
   "description": "",
   "keywords": [],
   "homepage": "https://github.com/alexzhang1030/ec#readme",
