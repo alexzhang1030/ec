@@ -3,7 +3,7 @@ import { resolve } from 'path'
 
 const __dirname = resolve()
 
-const fileContent = readFileSync(resolve(__dirname, '../template/.editorconfig'))
+const fileContent = readFileSync(resolve('./template/.editorconfig'))
 
 try {
   writeFileSync(resolve(__dirname, './.editorconfig'), fileContent)
