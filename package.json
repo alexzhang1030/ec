@@ -25,6 +25,10 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "files": [
+    "dist",
+    "template"
+  ],
   "bin": "./dist/index.mjs",
   "typesVersions": {
     "*": {
@@ -34,10 +38,6 @@
       ]
     }
   },
-  "files": [
-    "dist",
-    "template"
-  ],
   "sideEffects": false,
   "scripts": {
     "stub": "unbuild --stub",
@@ -45,7 +45,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepublishOnly": "pnpm build",
-    "release": "bumpp --commit --push --tag && npm publish",
+    "release": "bumpp --commit --push --tag && pnpm -r publish --access public",
     "start": "esno src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit",
