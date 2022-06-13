@@ -1,7 +1,6 @@
-# starter-ts
+# ec
 
-A ts starter by developer-plus.
-
+a `.editorconfig` file generator
 ## LICENSE
 
-MIT, developer-plus made with 💗.
+MIT, alexzhang1030 made with 💗.
