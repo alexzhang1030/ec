@@ -5,7 +5,7 @@ specifiers:
   '@commitlint/cli': 17.0.2
   '@commitlint/config-conventional': 17.0.2
   '@types/node': 17.0.44
-  bumpp: 8.0.0
+  bumpp: 8.1.0
   eslint: 8.17.0
   esno: 0.16.3
   husky: 8.0.1
@@ -21,7 +21,7 @@ devDependencies:
   '@commitlint/cli': 17.0.2
   '@commitlint/config-conventional': 17.0.2
   '@types/node': 17.0.44
-  bumpp: 8.0.0
+  bumpp: 8.1.0
   eslint: 8.17.0
   esno: 0.16.3
   husky: 8.0.1
@@ -1089,15 +1089,15 @@ packages:
       semver: 7.3.7
     dev: true
 
-  /bumpp/8.0.0:
-    resolution: {integrity: sha512-73LLBWk2vImpuXv0RDyOZn3971dTlgGPbGN7ZV4P9Gowp7N3CTEqfw+IgCGlMJp4MbBAlJYTGwjsiYaCVaw/Zg==}
+  /bumpp/8.1.0:
+    resolution: {integrity: sha512-USNqoYA+xM50vJGDoChjG9J7IeZeyymi7OUC9WT58pUF9l2Ue0Q6f8ec5vdai2dD70C+bs1d5WRe/JHNNXiMGg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
       '@jsdevtools/ez-spawn': 3.0.4
       cac: 6.7.12
-      chalk: 4.1.2
-      globby: 11.1.0
+      fast-glob: 3.2.11
+      kleur: 4.1.4
       prompts: 2.4.2
       semver: 7.3.7
     dev: true
@@ -3245,6 +3245,11 @@ packages:
 
   /kleur/3.0.3:
     resolution: {integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==}
+    engines: {node: '>=6'}
+    dev: true
+
+  /kleur/4.1.4:
+    resolution: {integrity: sha512-8QADVssbrFjivHWQU7KkMgptGTl6WAcSdlbBPY4uNF+mWr6DGcKrvY2w4FQJoXch7+fKMjj0dRrL75vk3k23OA==}
     engines: {node: '>=6'}
     dev: true
 
