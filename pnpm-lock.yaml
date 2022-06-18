@@ -5,7 +5,7 @@ specifiers:
   '@commitlint/cli': 17.0.2
   '@commitlint/config-conventional': 17.0.2
   '@types/node': 17.0.44
-  bumpp: 8.2.0
+  bumpp: 8.2.1
   eslint: 8.17.0
   esno: 0.16.3
   husky: 8.0.1
@@ -21,7 +21,7 @@ devDependencies:
   '@commitlint/cli': 17.0.2
   '@commitlint/config-conventional': 17.0.2
   '@types/node': 17.0.44
-  bumpp: 8.2.0
+  bumpp: 8.2.1
   eslint: 8.17.0
   esno: 0.16.3
   husky: 8.0.1
@@ -1089,8 +1089,8 @@ packages:
       semver: 7.3.7
     dev: true
 
-  /bumpp/8.2.0:
-    resolution: {integrity: sha512-DhFa4DSREOwnHJQyQ+Qhj9pUJAIZKMEtuHN7BuQij4CoxSBc6n4bBZnlvFWuLXNMr0aCtsMXnkQWC/7GyGypYw==}
+  /bumpp/8.2.1:
+    resolution: {integrity: sha512-4tHKsWC2mqHQvdjZ4AXgVhS2xMsz8qQ4zYt87vGRXW5tqAjrYa/UJqy7s/dGYI2OIe9ghBdiFhKpyKEX9SXffg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
