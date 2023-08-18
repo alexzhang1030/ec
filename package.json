@@ -55,7 +55,7 @@
     "@alexzzz/eslint-config": "1.4.0",
     "@commitlint/cli": "17.1.2",
     "@commitlint/config-conventional": "17.1.0",
-    "@types/node": "18.11.10",
+    "@types/node": "18.17.6",
     "bumpp": "8.2.1",
     "eslint": "8.25.0",
     "esno": "0.16.3",
